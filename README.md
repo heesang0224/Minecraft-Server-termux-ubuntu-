@@ -9,12 +9,12 @@
 4. java installation
 5. server start
 
-
+---
 ##Download
 1. termux download - <https://f-droid.org/ko/packages/com.termux/>
 2. anLinux download - <https://f-droid.org/ko/packages/exa.lnx.a/>
 
-
+---
 ##Settings
 Ubuntu installation
 
@@ -23,8 +23,8 @@ Ubuntu installation
 
 anLinux ubuntu select -> copy -> termux paste
 
-
-u##buntu start
+---
+##ubuntu start
 
     ./start-ubuntu.sh
     apt update
@@ -33,18 +33,21 @@ u##buntu start
     hostname -I
     passwd
 
+---
 ##ssh setting
 
 edit
 
 Port 8022
+
 PermitRootLogin yes
+
 PasswordAuthentication yes
 
     mkdir -p /run/sshd
     service ssh restart
 
-
+---
 ##in termius 
 1. new host
 2. address (your server ip)
@@ -54,25 +57,28 @@ PasswordAuthentication yes
 🧨connect
     
     
-
+---
 ##java
 
     apt install openjdk-25-jdk
 
+---
 ##server start
+
 create server file
 
     mkdir [server name]
     cd [server name]
 
-downloads paper
+---
+##downloads paper
 <https://papermc.io/>
 
 
     wget -O paper.jar [Paper 다운로드 URL]
 
-
-server start
+---
+##server start
 
 
     java -Xms4G -Xmx4G -jar paper.jar nogui
