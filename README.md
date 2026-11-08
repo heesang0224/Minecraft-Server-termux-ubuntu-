@@ -15,6 +15,7 @@
 
 ##Settings
 1. Ubuntu
+
     pkg update
     pkg upgrade
     
