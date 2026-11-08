@@ -2,7 +2,7 @@
 안드로이드 스마트폰앱 termux에 우분투를 설치하고 마인크래프트 서버를 실행하는법
 
 ---
-###Contents
+### Contents
 1. termux, anLinux Download
 2. termux settings
 3. termius download and settings
@@ -10,12 +10,12 @@
 5. server start
 
 ---
-###Download
+### Download
 1. termux download - <https://f-droid.org/ko/packages/com.termux/>
 2. anLinux download - <https://f-droid.org/ko/packages/exa.lnx.a/>
 
 ---
-####Settings
+#### Settings
 Ubuntu installation
 
     pkg update
@@ -24,7 +24,7 @@ Ubuntu installation
 anLinux ubuntu select -> copy -> termux paste
 
 ---
-##ubuntu start
+## ubuntu start
 
     ./start-ubuntu.sh
     apt update
@@ -34,7 +34,7 @@ anLinux ubuntu select -> copy -> termux paste
     passwd
 
 ---
-##ssh setting
+## ssh setting
 
 edit
 
@@ -48,7 +48,7 @@ PasswordAuthentication yes
     service ssh restart
 
 ---
-###in termius 
+### in termius 
 1. new host
 2. address (your server ip)
 3. port --> 8022
@@ -58,12 +58,12 @@ PasswordAuthentication yes
     
     
 ---
-###java
+### java
 
     apt install openjdk-25-jdk
 
 ---
-###server start
+### server start
 
 create server file
 
@@ -71,14 +71,14 @@ create server file
     cd [server name]
 
 ---
-##downloads paper
+## downloads paper
 <https://papermc.io/>
 
 
     wget -O paper.jar [Paper 다운로드 URL]
 
 ---
-##server start
+## server start
 
 
     java -Xms4G -Xmx4G -jar paper.jar nogui
