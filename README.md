@@ -43,7 +43,9 @@ Port 8022
 PermitRootLogin yes
 
 PasswordAuthentication yes
+    
 
+    nano /etc/ssh/sshd_config
     mkdir -p /run/sshd
     service ssh restart
 
